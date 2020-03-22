@@ -1,0 +1,24 @@
+.cardsContainer {
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  margin: 3rem;
+  padding: 3rem;
+  width: 30rem;
+  height: auto;
+}
+
+.card {
+  height: 20rem;
+  width: 25rem;
+  padding: 10rem;
+  overflow-y: scroll;
+}
+
+.cardTitle {
+ position: sticky;
+}
